@@ -1,0 +1,36 @@
+# Environment — never commit API keys
+.env
+
+# Internal Claude Code memory
+.claude/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Raw downloaded FRED data (reproducible by running 01_collect_data.py)
+data/raw/
+
+# Word temporary lock files
+~$*.docx
+~$*.xlsx
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
